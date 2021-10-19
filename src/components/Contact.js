@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import image from "../images/envelope.jpg"
 
 const Contact = () => {
     return (
@@ -12,7 +13,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                     <div className="col-md 5 d-flex justify-content-center">
-                        <img src="/envelope.jpg" alt="Contact Us" height="300px" width="300px" />
+                        <img src={image} alt="Contact Us" height="300px" width="300px" />
                     </div>
                     <div className="col-md-6">
                         <form >
